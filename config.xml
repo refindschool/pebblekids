@@ -120,7 +120,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:host="www.youtube.com" android:scheme="http"></data>
+                <data android:scheme="http" android:host="172.0.0.1" android:pathPrefix=""></data>
             </intent-filter>
         </config-file>
 </platform>
